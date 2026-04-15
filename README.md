@@ -93,39 +93,6 @@ Download and arrange files as:
 
 ## Quickstart
 
-### Option A — Google Colab (recommended)
-
-Open `notebooks/OHL_MRC_Colab.ipynb` in Google Colab with an **A100 runtime**. Mount your Google Drive, point `DATA_ROOT` to your MILK10k folder, and run cells top to bottom.
-
-Estimated runtime: ~8 hours for full 5-fold CV across all 6 conditions.
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mynoddin/ohl-mrc/blob/main/notebooks/OHL_MRC_Colab.ipynb)
-
-### Option B — Local / HPC
-
-```bash
-# 1. Clone
-git clone https://github.com/[YOUR_USERNAME]/ohl-mrc.git
-cd ohl-mrc
-
-# 2. Install
-pip install -r requirements.txt
-
-# 3. Set data path
-nano configs/default.yaml     # set data_root: /path/to/milk10k/data
-
-# 4. Run hyperparameter search (fold-1 only, ~30 min on A100)
-python scripts/run_experiment.py --stage hparam
-
-# 5. Run full 5-fold CV (~8 hours on A100)
-python scripts/run_experiment.py --stage cv
-
-# 6. Generate figures
-python scripts/run_experiment.py --stage figures
-```
-
----
-
 ## Experimental Conditions
 
 Six ablation conditions isolate each framework component:
