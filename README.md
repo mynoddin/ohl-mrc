@@ -198,7 +198,7 @@ If you use this code, the OHL-MRC framework, or the MBER/MRC-Eval metrics, pleas
   title   = {Ontology-guided hierarchical loss with multi-resolution
              calibration for fine-grained skin lesion classification
              on {MILK10k}},
-  author  = {Mynoddin, Md and Chakraborty, Dulal and Dev, Troyee},
+  author  = {Mynoddin, Md and Chakraborty, Dulal, et al},
   journal = {Journal of Investigative Dermatology},
   year    = {2025},
   note    = {Under review}
