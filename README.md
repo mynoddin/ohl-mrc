@@ -2,8 +2,7 @@
 
 > **Code and data for the paper:**
 > *"Ontology-guided hierarchical loss with multi-resolution calibration for fine-grained skin lesion classification on MILK10k"*
-> Md Mynoddin, Dulal Chakraborty, Troyee Dev
-> *Journal of Investigative Dermatology* (under review)
+> (under review)
 
 ---
 
